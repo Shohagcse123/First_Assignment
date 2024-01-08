@@ -128,3 +128,45 @@ border-radius: 5px;
 border-color: aliceblue;
 padding: 5px;
 }
+/* Awesome portfolio design */
+.portfolio{
+  text-align:left;
+  padding-left: 130px;
+  background: #FFF;
+}
+.portfolio-image{
+  width: 4240px;
+height: 450px;
+border-radius: 16px;
+
+}
+ .portfolio-image table tr td:hover{
+  border: 1px solid brown;
+  
+
+ }
+ .portfolio-image tr td{
+ padding:20px;
+ }
+ .portfolio-text h6{
+  color: #F00;
+font-family: Inter;
+font-size: 24px;
+
+ }
+ .portfolio-text h2{
+  color: #070211;
+ margin-top: -26px;
+font-size: 48px;
+
+
+
+text-transform: capitalize;
+ }
+ .portfolio-desc{
+  margin-top: -22px;
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+
+ }

@@ -1,0 +1,130 @@
+/* universal selector */
+*{
+    font-family: Merriweather;
+}
+
+
+/* banner design */
+.banner{
+    text-align: center;
+  
+   
+}
+.banner-text h3{
+  color: #FFF;
+font-size: 32px;
+
+}
+.party{
+  margin-top: -7%;
+  margin-bottom:-10%;
+}
+.banner-text h2{
+  color: #FFF;
+font-size: 72px;
+margin-bottom: -60px;
+
+}
+
+.banner-text{
+ justify-content: center;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ padding-top: 10%;
+}
+header{
+    background-image: url('resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+ margin-top: 50px;
+  margin-left: 150px;
+
+}
+/* banner-2 style */
+.banner-2{
+  text-align: center;
+  margin:120px 600px ;
+  display: flex;
+}
+.year-photo{
+ align-items: center;
+  width: 502.9px;
+height: 400px;
+align-items: center;
+justify-content: center;
+margin-top:-50px;
+
+}
+.offer{
+  color: #F00;
+margin-bottom: -30px;
+font-family: Inter;
+font-size: 88px;
+
+font-weight: 700;
+
+}
+.holiday{
+  margin-bottom: 20px;
+  color: #F00;
+
+font-family: Inter;
+font-size: 24px;
+
+}
+.categories{
+  color: #070211;
+    margin-top: -20px;
+  font-family: Inter;
+  font-size: 48px;
+ 
+}
+/* banner-3 style */
+.banner-3{
+  display: flex;
+  background-image:url('resources/Vectorrr.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 20px;
+  justify-content:center ;
+  justify-content:space-around;
+  align-items: center;
+  width: 1320px;
+height: 600px;
+padding:120px 140px ;
+  
+}
+.new-year-img{
+  position: sticky;
+  padding:60px 130px;
+}
+.welcome{
+     padding-top: -150px;
+     padding-left: 200px;
+}
+.greeting{
+  color: #FFF;
+font-size: 64px;
+margin-top: -60px;
+}
+.greeting-description{
+  color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+margin-top: -20px;
+
+}
+.joinbtn{
+  color: #FFF;
+
+font-family: Inter;
+font-size: 20px;
+background-color: orangered;
+border-radius: 5px;
+border-color: aliceblue;
+padding: 5px;
+}

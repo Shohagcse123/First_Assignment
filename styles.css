@@ -389,3 +389,32 @@ font-size: 48px;
 font-family: Inter;
 font-size: 20px;
 }
+/* my last style */
+.last-section{
+  margin-top: -300px;
+}
+#function{
+  color: #070211;
+font-family: Inter;
+font-size: 24px;
+margin-bottom: -50px;
+
+
+}
+.holidays-sale{
+ 
+  text-align: center;
+}
+.holiday2{
+  color: #F00;
+
+font-size: 72px;
+margin-bottom: 20px;
+
+}
+.holiday2 span{
+  color: #070211;
+
+font-size: 72px;
+
+}

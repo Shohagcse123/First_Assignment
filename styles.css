@@ -130,18 +130,21 @@ padding: 5px;
 }
 /* Awesome portfolio design */
 .portfolio{
-  text-align:left;
-  padding-left: 130px;
+  text-align:center;
+  margin-right: 20px;
+  margin-left: 30px;
+  
   background: #FFF;
 }
 .portfolio-image{
-  width: 4240px;
-height: 450px;
+  width: 20%;
+height: 20%;
 border-radius: 16px;
 
 }
- .portfolio-image table tr td:hover{
-  border: 1px solid brown;
+ .portfolio-image tr td:hover{
+ border: 1px solid brown;
+
   
 
  }
@@ -168,5 +171,64 @@ text-transform: capitalize;
   color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 20px;
+ }
+ /* Subscribe banner dsign */
+ .subscribe{
+  display: block;
+  text-align: center;
+  margin:200px 140px ;
+  padding: 150px 100px;
+  border-radius: 16px;
+  
+
+
+background: rgba(255, 0, 0, 0.05);
+ }
+ .subscribe-desc{
+  color: rgba(132, 127, 140, 0.6);
+
+font-family: Inter;
+font-size: 20px;
 
  }
+ .subscribe-heading{
+  color: #070211;
+font-size: 48px;
+
+text-transform: capitalize;
+ }
+
+ .input-container{
+ display: flex;
+align-items: center;
+justify-content: center;
+border:none;
+outline: none;
+border-radius: 50px;
+
+  
+ }
+ /* .input-feild{
+  width: 648px;
+  height: 102px;
+  padding: 20px;
+  display: relative;
+ 
+ } */
+  /* .action-button{
+ 
+  padding:8px 6px;
+ } */
+ .input-container input,button{
+  border-radius: 50px;
+  padding:10px;
+ 
+
+ }
+ .input-container button{
+  background-color: red;
+  padding:10px;
+  border: none;
+  outline: none;
+  gap: 0;
+ } 

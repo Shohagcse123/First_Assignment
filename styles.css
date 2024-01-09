@@ -226,10 +226,11 @@ background-color: #F00;
  /* footer style */
  .footer-style{
 color: white;
-  width: 1600px;
+  width: 1700px;
 height: 609px;
 background-color: #070211;
 margin-top:120px;
+
 width: 100%;
  }
 
@@ -244,4 +245,13 @@ width: 100%;
   padding: 120px 140px;
  }
 
+/* Social icon */
+.socialmedia-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -320px;
+ font-size: 24px;
+  gap:15px;
 
+}

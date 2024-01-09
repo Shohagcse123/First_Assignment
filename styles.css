@@ -392,6 +392,8 @@ font-size: 20px;
 /* my last style */
 .last-section{
   margin-top: -300px;
+  margin-left:10px;
+  margin-right: 50px;
 }
 #function{
   color: #070211;
@@ -416,5 +418,32 @@ margin-bottom: 20px;
   color: #070211;
 
 font-size: 72px;
+
+}
+/* Sale 50% image design */
+.amazing-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.discount-img{
+  position: relative;
+  left: 10%;
+}
+.gift-box{
+  position: relative;
+  left:15%;
+  top:50%;
+  bottom: 50%;
+  opacity: 0.8;
+}
+.red-border{
+  margin-top: -300px;
+  border-radius: 16px 0px 16px 16px;
+  width: 1320px;
+  padding: 115px;
+height: 229px;
+margin-left: 50px;
 
 }

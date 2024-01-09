@@ -311,7 +311,81 @@ width: 100%;
   align-items: center;
   margin-top: -320px;
  font-size: 24px;
-  gap:15px;
+  gap:25px;
 
 }
 
+/* Offer style */
+.comming-offer{
+  display: flex;
+  position:relative;
+  margin:120px 140px;
+  width: 1600px;
+height: 735px;
+gap:20px;
+
+}
+.first-offer{
+width: 30%;
+
+}
+.second-offer-image{
+width: 30%;
+
+width: 150px; /* Adjust the width and height as needed */
+height: 150px;
+border: 15px solid red;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: content-box;
+padding: 20px;
+
+}
+.first-offer h4{
+  color: #F00;
+
+font-family: Inter;
+font-size: 24px;
+
+}
+.first-offer h2{
+  color: #070211;
+
+font-size: 48px;
+
+
+text-transform: capitalize;
+}
+.first-offer p{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+
+}
+
+.second-offer-image img{
+  max-width: calc(100% - 10px); /* To adjust for the border width */
+  max-height: calc(100% - 10px); /* To adjust for the border width */
+  display: block;
+  padding: 50px;
+
+}
+.third-offer{
+ width: 30%;
+ padding-left: 100px;
+ margin-top:-10px;
+}
+.third-offer h2{
+  color: #F00;
+  
+font-family: Inter;
+font-size: 48px;
+
+}
+.third-offer p{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+}

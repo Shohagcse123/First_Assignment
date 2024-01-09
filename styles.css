@@ -7,6 +7,7 @@
 /* banner design */
 .banner{
     text-align: center;
+    
   
    
 }
@@ -39,6 +40,7 @@ header{
     background-size: cover;
     width: 1320px;
   height: 600px;
+  
   border-radius: 16px;
  margin-top: 50px;
   margin-left: 150px;
@@ -86,8 +88,10 @@ font-size: 24px;
 /* banner-3 style */
 .banner-3{
   display: flex;
-  background-image:url('resources/Vectorrr.png');
+  background-image: url('resources/Vectorrr.png');
   background-repeat: no-repeat;
+  
+  /* opacity: 0.7; */
   background-position: 50%;
   border-radius: 20px;
   justify-content:center ;
@@ -128,12 +132,66 @@ border-radius: 5px;
 border-color: aliceblue;
 padding: 5px;
 }
+
+/* Party place style */
+.party-time{
+  display: block;
+ 
+  position:relative;
+  margin-top: 120px;
+  width: 1320px;
+height: 482px;
+margin-left: 150px;
+background-color: coral;
+}
+.party-schedule{
+  text-align: center;
+  position: absolute;
+  color: #F00;
+
+font-family: Inter;
+font-size: 32px;
+
+line-height: 56px; /* 175% */
+text-transform: capitalize;
+  top: 30%;
+  left: 50%;
+  bottom: 50%;
+ transform: translate(-50%);
+ margin-top: -70px;
+}
+span{
+  color: #070211;
+}
+.party-btn{
+  outline: none;
+  border: none;
+ position: absolute;
+ top:65%;
+ left: 50%;
+
+
+
+ transform:translate(-60%) ;
+ 
+}
+.party-btn #join_btn{
+  padding:16px 32px;
+  background-color: #F00;
+  color: white;
+  font-size: 24px;
+  border-radius: 8px;
+  border: noe;
+  outline: none;
+}
+
+
 /* Awesome portfolio design */
 .portfolio{
   text-align:center;
   margin-right: 20px;
   margin-left: 30px;
-  
+  margin-top: 120px;
   background: #FFF;
 }
 .portfolio-image{
